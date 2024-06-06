@@ -3,7 +3,7 @@ Streamlit custom component to get the client's timezone as a tzinfo object.
 
 ## Download
 ```bash
-pip install streamlit-client-timezone==0.1.2
+pip install streamlit-client-timezone
 ```
 ## Usage
 ```python
