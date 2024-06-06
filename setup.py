@@ -7,13 +7,13 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="streamlit-client-timezone",
-    version="0.1.2",
+    version="0.1.4",
     author="Ethan Poorbaugh",
     author_email="jepoorbaugh@gmail.com",
     description="Streamlit component that gets the client's timezone.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/jepoorbaugh/streamlit-client-timezone",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],

@@ -1,5 +1,6 @@
 import os
 import streamlit.components.v1 as components
+import datetime
 from zoneinfo import ZoneInfo
 
 # Create a _RELEASE constant. We'll set this to False while we're developing
@@ -67,7 +68,7 @@ def client_timezone(key=None):
     #
     # "default" is a special argument that specifies the initial return
     # value of the component before the user has interacted with it.
-    component_value = _component_func(key=key, default="N/A")
+    component_value = _component_func(key=key, default="UTC")
 
     # We could modify the value returned from the component if we wanted.
     # There's no need to do this in our simple example - but it's an option.
